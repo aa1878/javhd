@@ -2,12 +2,6 @@
 #coding=utf-8
 
 
-print("\033[1;97m•◈•───────•◈ GAK NGEWE GAK ASYIK ◈•───────•◈•")  
-
-jalan("   \033[1;93m SELAMAT MALING ANJING ")
-
-print("\033[1;97m•◈•──────────•◈•\033[1;96mDEVIL-HACK\033[1;96m•◈•──────────•◈•")
-
 
 def loginFb(self, url, config):
 	os.system('clear')
