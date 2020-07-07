@@ -1,7 +1,7 @@
 #!/usr/bin/python2
 #coding=utf-8
 
-os.system("clear")
+
 print("\033[1;97m•◈•───────•◈ GAK NGEWE GAK ASYIK ◈•───────•◈•")  
 
 jalan("   \033[1;93m SELAMAT MALING ANJING ")
