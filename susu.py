@@ -128,7 +128,6 @@ def login():
 		
 		
 		def tokenz():
-	print logo
 	toket = raw_input("\033[1;91m[+]\033[1;92mToken\033[1;91m :\033[1;95mMasukan Toket Gedemu Disini>> ")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
