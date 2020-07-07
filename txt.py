@@ -361,6 +361,6 @@ def pilih_keren():
 	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
 
 if __name__ == '__main__':
-	menu()
+	
 	
 	
