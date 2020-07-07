@@ -385,6 +385,6 @@ def pilih_super():
 	
 	print '\033[1;31;40m[✓] Process Has Been Completed\033[1;97m....'
 	print "\033[1;32;40m[+] Total OK/\033[1;97mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
-	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt')
+	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
 	
 	
