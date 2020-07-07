@@ -128,7 +128,6 @@ def login():
 		
 		
 		def tokenz():
-	os.system('clear')
 	print logo
 	toket = raw_input("\033[1;91m[+]\033[1;92mToken\033[1;91m :\033[1;95mMasukan Toket Gedemu Disini>> ")
 	try:
