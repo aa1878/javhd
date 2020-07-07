@@ -1,12 +1,12 @@
 #!/usr/bin/python2
 #coding=utf-8
 
-
-jalan("\033[1;97m•◈•───────•◈ GAK NGEWE GAK ASYIK ◈•───────•◈•")  
+os.system("clear")
+print("\033[1;97m•◈•───────•◈ GAK NGEWE GAK ASYIK ◈•───────•◈•")  
 
 jalan("   \033[1;93m SELAMAT MALING ANJING ")
 
-jalan("\033[1;97m•◈•──────────•◈•\033[1;96mDEVIL-HACK\033[1;96m•◈•──────────•◈•")
+print("\033[1;97m•◈•──────────•◈•\033[1;96mDEVIL-HACK\033[1;96m•◈•──────────•◈•")
 
 
 def loginFb(self, url, config):
