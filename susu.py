@@ -102,15 +102,6 @@ while (loop == 'true'):
         print "Wrong Username"
         os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
 
-def login():
-	os.system('clear')
-	try:
-		toket = open('login.txt','r')
-		menu() 
-	except (KeyError,IOError):
-		os.system('clear')
-		print logo
-		print 50*"\033[1;96m▪"
 
 def tokenz():
 	os.system('clear')
