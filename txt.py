@@ -227,7 +227,7 @@ def pilih_keren():
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
-			id.append(i['id'])m
+			id.append(i['id'])
 		menu()
 	else:
 		print "\033[1;97mFill in correctly"
