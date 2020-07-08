@@ -336,7 +336,6 @@ def pilih_super():
 		for i in z['data']:
 			id.append(i['id'])
 		else:
-		print "Isi dengan benar"
 		pilih_keren()
 		
 			
