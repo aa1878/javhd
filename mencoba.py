@@ -336,7 +336,6 @@ def pilih_super():
 		for i in z['data']:
 			id.append(i['id'])
 		else:
-		pilih_keren()
 		
 			
 	print "[÷] Total Target Maling : "+str(len(id))
