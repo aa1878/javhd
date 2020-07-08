@@ -335,8 +335,6 @@ def pilih_keren():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-		elif peak =="0":
-		menu()
 	else:
 		print "Isi dengan benar"
 		pilih_keren()
