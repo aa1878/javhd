@@ -338,16 +338,16 @@ def pilih_keren():
 		print logo                  
 		try:
 			
-	print "[÷] Total ID : "+str(len(id))
+	print "[÷] Jumlah IDs : "+str(len(id))
 	jalan('[÷] Tunggu Bodoh...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("[÷] Maling"+o),;sys.stdout.flush();time.sleep(1)
 	print "        ❈   Berhenti Maling Tekan > CTRL+Z    ❈"
-	print "   ══════════════════◄►══════════════════💋●"
+	print "   ══════════════════◄►══════════════════●"
 
 	jalan('                TUNGGU BODOH SEDANG MALING...')
-	print  "  ══════════════════◄►══════════════════💋●" 
+	print  "  ══════════════════◄►══════════════════●" 
 
 	def main(arg):
 		global cekpoint,oks
