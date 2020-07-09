@@ -396,7 +396,7 @@ def pilih_super():
 	jalan('[⊱⋕⊰] Tunggu Bodoh ')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("[⊱⋕⊰] Sedang Maling"),;sys.stdout.flush();time.sleep()
+		print("[⊱⋕⊰] Sedang Maling"),;sys.stdout.flush();time.sleep(1)
 	print "   ❈    Berhenti Maling Tekan CTRL+Z    ❈"
 	print "⊱⋕⊰══════════════════════════════════════════⊱⋕⊰" 
 
